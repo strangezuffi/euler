@@ -2,7 +2,7 @@ import csv
 
 def split_csv_by_key(input_file, output_prefix):
     """
-    Trennt eine CSV-Datei anhand eines Schlüssels in Feld 1 (Position 20-24).
+    Trennt eine CSV-Datei anhand eines Schlüssels in Feld 1 (Position 20-letzte Pos vor erstem Space).
 
     Args:
         input_file (str): Pfad zur Eingabedatei.
